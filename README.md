@@ -9,17 +9,16 @@ The problem I needed to solve is how to get the watts hours my meter was giving 
 
 This is generic it will just sum up your value until the end of ... the database space :-D , just as an integration sensor would. I just simplified it to not be an integration and not depend on the time.
 
-##Configuration Variables
+## Configuration Variables
 
-source string Required
+#### source string Required
 The entity ID of the sensor providing numeric readings.
 
-name string (Optional, default: source entity ID meter + '_sum')
+#### name string (Optional, default: source entity ID meter + '_sum')
 Name to use in the frontend.
 
-round integer (Optional, default: 3)
+#### round integer (Optional, default: 3)
 Round the calculated integration value to at most N decimal places.
 
-unit_prefix string (Optional, default: None)
+#### unit_prefix string (Optional, default: None)
 Metric unit to prefix the integration result. Available units are k, M, G and T.
-
