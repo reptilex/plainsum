@@ -1,0 +1,7 @@
+{
+    "domain": "plainsum",
+    "name": "Plain Sum - a plain sum of a sensors value",
+    "issue_tracker": "https://github.com/reptilex/plainsum/issues",
+    "documentation": "https://github.com/reptilex/plainsum",
+    "codeowners": ["@reptilex"]
+}

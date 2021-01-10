@@ -1,0 +1,1 @@
+"""The plain sum component."""
